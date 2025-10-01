@@ -1,0 +1,24 @@
+{
+  "name": "graph-co-editing-framework",
+  "version": "1.0.0",
+  "description": "A robust concurrent graph editing system with conflict detection",
+  "scripts": {
+    "start": "./run.sh",
+    "build": "./build.sh",
+    "test": "./test.sh",
+    "backend": "cd BackEnd && npm start",
+    "frontend": "cd FrontEnd && npm start",
+    "backend:build": "cd BackEnd && npm run build",
+    "backend:test": "cd BackEnd && npm test"
+  },
+  "keywords": [
+    "graph-editing",
+    "concurrent",
+    "conflict-resolution",
+    "mongodb",
+    "websockets",
+    "collaboration"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
